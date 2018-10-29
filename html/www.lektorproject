@@ -1,0 +1,23 @@
+[project]
+name = www
+url_style = relative
+
+
+[packages]
+lektor-s3 = 0.5.1
+
+[alternatives.en]
+name = English
+primary = yes
+locale = en_US
+
+[alternatives.de]
+name = Deutsch
+url_prefix = /de/
+locale = de
+
+
+[servers.preproduction]
+name = Pre-production
+enabled = yes
+target = s3://spherical-www-preprod

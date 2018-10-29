@@ -1,0 +1,30 @@
+_model: team
+---
+title: Team
+---
+members:
+
+#### staff ####
+name: Mikhail Vartanyan
+----
+title: Managing Director
+----
+intro:
+
+Mikhail came to Spherical after 20 years in software development and IT management, out of which 15 have been within the UN system. From hard technical problems to the trenches of working level diplomacy, Mikhail has learned to harness the power of diversity to enable anyone to contribute towards a good cause. He aspires to be seen by others as a bridge between technical, political and business worlds, enabling synergies in delivering good things together.
+
+Mikhail used to professionally program in C, Delphi, Java and Python. In his management career, he was exposed to project management (PMI and PRINCE2, with and without iterative aspects), service and operations management (ITIL), anti-crisis management and IT auditing. At Spherical, he is in charge of the business development strategy and customer relationships.
+----
+photo: vartanyan.jpg
+#### staff ####
+name: Anton Patrushev
+----
+title: Chief Technology Officer
+----
+intro:
+
+Anton is an architecture visionary and a rock star software developer with 20 years of experience programming and leading programmers in the private sector and in the UN system. His motto is "everything can be programmed" and he is living by it day to day, routinely materializing what had seemed impossible to others before.
+
+Anton used to professionally program in C++, Python, Java, JavaScript. Having an extensive background in networking, voice and video telecommunications, and IT security, he provided technical leadership to development of multiple business-critical high availability/high load systems. He is an expert in performance-tuning of legacy applications and a champion Docker implementer. At Spherical, he is in charge of the technology platform and architecture.
+----
+photo: patrushev.jpg

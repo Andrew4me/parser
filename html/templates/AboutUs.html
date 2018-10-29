@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Us</title>
+  <link rel="stylesheet" type="text/css" href="../assets/static/vuetify.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/static/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/static/style.css" />
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js"></script>
+</head>
+<body>
+
+
+
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        
+            <a class="navbar-brand" href="#"><img src="../assets/img/spherical_logo.svg" alt="Logo"></a>
+          
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse menu-flex" id="navbarNav">
+          <ul class="navbar-nav menu-list">
+            <li class="nav-item">
+              <a href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="Our Approach.html">Approach</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Investors</a>
+            </li>
+            <li class="nav-item">
+              <a href="team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Jobs</a>
+            </li>
+            <li class="nav-item">
+              <a href="AboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Contacts</a>
+            </li>
+          </ul>
+          <div class="col-md-1 language padding-none">
+              <p>DE</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="container title">
+      <div class="row">
+        <div class="col-md-12 title-text">
+          <h1>About Us</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container about">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="top-title">
+              <p><b>spherical.pm</b></p>
+              <p>is materializing the potential that information technology can bring into global sustainability efforts.</p>
+          </div>
+          <div class="about_main">
+              <p>
+                We are building systems, big and small, that support international efforts to protect the environment, eradicate poverty, provide universal access to basic utilities, health care, food and education, transparency and accountability in governance.
+              </p>
+              <p>
+                  Thinking globally and for the long term, we are at the same time concentrated on the specific task at hand to deliver solutions quickly and economically for our clients.
+              </p>
+              <p>
+                  We will support you from the idea stage of your project and help you formulate requirements, hone the features of your hardware, software or web system, and turn it into a popular product that fulfills its intended mission.
+              </p>
+              <p>
+                  We are technology and management veterans who have long experience delivering IT solutions for the United Nations, governmental and intergovernmental organizations, and the private sector.
+              </p>
+              <p>
+                  We understand the processes associated with publicly-funded activities and we are happy to play by complex rules as long as we believe that your goal is making the world a better place.
+              </p>
+              <div class="mt-120">
+                <h2>Mission Statement</h2>
+              </div>
+              <p>
+                  Spherical exists to enable and unite progressive humanity in achievement of its global goals. We use our technology and data expertise to create trust by providing transparency, to use limited resources wisely by providing comparability and analysis, to spark innovation by detecting insights, and to fuel the momentum for sustainable development by delivering beautiful, simple and convincing advocacy materials to the masses
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-about mt-120">
+        <div class="row">
+          <div class="col-md-9 about_main">
+              <h2>Contacts and Legal information</h2>
+          </div>
+          <div class="col-md-6">
+              <div id="app">
+                  <v-app>
+                    <v-form ref="form" v-model="valid" lazy-validation>
+                      <v-text-field
+                        v-model="name"
+                        :rules="nameRules"
+                        label="Whats is your name?"
+                        required
+                      ></v-text-field>
+                      <v-text-field
+                        v-model="email"
+                        :rules="emailRules"
+                        label="Your email"
+                        required
+                      ></v-text-field>
+                      <v-textarea
+                      name="text"
+                      :rules="textRules"
+                      label="How can we help you?"
+                    ></v-textarea>
+                      <v-btn
+                        :disabled="!valid"
+                        @click="submit"
+                      >
+                        Send
+                      </v-btn>
+                    </v-form>
+                  </v-app>
+                </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <p><b>spherical.pm GmbH</b> <br>+49 (0) 228 94777135 <br> info@spherical.pm <br> <span>Have a project in mind? Need a wise advice? <br> Want to say hi? We are excited to talk to you</span> <br> Emil-Nolde-Str. 7 <br> 53113 Bonn <br> Germany <br><br> Registering authority <br> XXXXX <br><br> Registration number <br> XXXXX <br><br> EU VAT number <br> XXXXX <br><br> CEO <br> XXXXX</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 private-footer">
+          <p>© spherical.pm 2018</p>
+          <a href="Privacy and GDPR.html"><p>Privacy Policy and GDPR</p></a>
+        </div>
+        <div class="col-md-6 service-footer">
+          <a href="#">services@spherical.pm</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Service</title>
+  <link rel="stylesheet" type="text/css" href="../assets/static/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/static/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+    <nav class="navbar">
+      <div class="col-md-3 logo padding-none">
+        <a href="#"><img src="../assets/img/spherical_logo.svg" alt="Logo"></a>
+      </div>
+
+      <div class="col-md-9 menu padding-none">
+        <div class="row flex-center">
+          <div class="col-md-11 menu-flex padding-none">
+              <ul class="menu-list">
+                  <li><a href="/">Products</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="/">Approach</a></li>
+                  <li><a href="/">Investors</a></li>
+                  <li><a href="/">Team</a></li>
+                  <li><a href="/">Jobs</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="/">Contacts</a></li>
+                </ul>
+          </div>
+          <div class="col-md-1 language padding-none">
+              <p>DE</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </div>
+    <h1>www</h1>
+  </header>
+  <div class="page">
+    {% block body %}{% endblock %}
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 private-footer">
+          <p>© spherical.pm 2018</p>
+          <p>Privacy Policy and GDPR</p>
+        </div>
+        <div class="col-md-6 services-footer">
+          <a href="#">services@spherical.pm</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
